@@ -1,0 +1,1672 @@
+Adam Barron
+160212899
+CSC3221 Project 2 - Ultimate Chess
+27/11/2019
+
+Here is some sample output: one run of the game with all debug options enabled, and then 5 runs without.
+Debug options can be uncommented for further testing as needed.
+
+*** DEBUG RUN (Maximum output: approx 1200 lines)***
+
+STARTING POSITIONS
+Type: Rook
+Location : (-1,6)
+Type: Rook
+Location : (6,3)
+Type: Rook
+Location : (-6,-4)
+Type: Rook
+Location : (-5,6)
+Type: Rook
+Location : (-4,5)
+Type: Bishop
+Location : (7,3)
+Type: Bishop
+Location : (10,-6)
+Type: Bishop
+Location : (-1,6)
+Type: Bishop
+Location : (-5,1)
+Type: Bishop
+Location : (1,6)
+Type: Queen
+Location : (-5,-8)
+Type: Queen
+Location : (-5,-8)
+Type: Queen
+Location : (9,-7)
+Type: Queen
+Location : (6,6)
+Type: Queen
+Location : (-6,-4)
+GAME STARTED!
+SQUARE-SQUARE COLLISION CHECK...
+SQUARE-SQUARE COLLISION CHECK...
+Collision detected!
+Type: Rook
+Location : (-4.61412,5)
+Collided with
+Type: Rook
+Location : (-4.14161,6)
+SQUARE-CIRCLE COLLISION CHECK...
+Collision detected!
+Type: Bishop
+Location : (-0.544084,6.45592)
+Collided with
+Type: Rook
+Location : (-0.612995,6)
+SQUARE-CIRCLE COLLISION CHECK...
+SQUARE-CIRCLE COLLISION CHECK...
+CIRCLE-CIRCLE COLLISION CHECK...
+Collision detected!
+Type: Queen
+Location : (-4.36799,-8)
+Collided with
+Type: Queen
+Location : (-4.50569,-8)
+SQUARE-CIRCLE COLLISION CHECK...
+Collision detected!
+Type: Queen
+Location : (-5.97256,-4)
+Collided with
+Type: Rook
+Location : (-5.0968,-4)
+ITERATION 1 REMAINING PIECES
+Type: Rook
+Location : (6.68657,3)
+Type: Rook
+Location : (-4.61412,5)
+Type: Bishop
+Location : (7,3)
+Type: Bishop
+Location : (10,-6)
+Type: Bishop
+Location : (-0.544084,6.45592)
+Type: Bishop
+Location : (-5,1)
+Type: Bishop
+Location : (1,6)
+Type: Queen
+Location : (-4.36799,-8)
+Type: Queen
+Location : (9,-7)
+Type: Queen
+Location : (6,6)
+Type: Queen
+Location : (-5.97256,-4)
+SQUARE-CIRCLE COLLISION CHECK...
+Collision detected!
+Type: Bishop
+Location : (6.74508,3.25492)
+Collided with
+Type: Rook
+Location : (6.68657,2.08148)
+CIRCLE-CIRCLE COLLISION CHECK...
+Collision detected!
+Type: Bishop
+Location : (0.798364,5.79836)
+Collided with
+Type: Bishop
+Location : (-0.544084,6.45592)
+CIRCLE-CIRCLE COLLISION CHECK...
+CIRCLE-CIRCLE COLLISION CHECK...
+ITERATION 2 REMAINING PIECES
+Type: Rook
+Location : (-4.61412,5.67583)
+Type: Bishop
+Location : (6.74508,3.25492)
+Type: Bishop
+Location : (10,-6)
+Type: Bishop
+Location : (-4.48189,0.481887)
+Type: Bishop
+Location : (0.798364,5.79836)
+Type: Queen
+Location : (-4.36799,-8)
+Type: Queen
+Location : (9,-7)
+Type: Queen
+Location : (6.01621,6)
+Type: Queen
+Location : (-6.74136,-4.76879)
+CIRCLE-CIRCLE COLLISION CHECK...
+Collision detected!
+Type: Queen
+Location : (9.08975,-7.08975)
+Collided with
+Type: Bishop
+Location : (9.55239,-6.44761)
+ITERATION 3 REMAINING PIECES
+Type: Rook
+Location : (-4.61412,5.04474)
+Type: Bishop
+Location : (6.7,3.3)
+Type: Bishop
+Location : (-4.47758,0.477584)
+Type: Bishop
+Location : (0.0184637,5.01846)
+Type: Queen
+Location : (-3.58095,-8)
+Type: Queen
+Location : (9.08975,-7.08975)
+Type: Queen
+Location : (6.01621,6)
+Type: Queen
+Location : (-6.74136,-4.76879)
+SQUARE-CIRCLE COLLISION CHECK...
+CIRCLE-CIRCLE COLLISION CHECK...
+CIRCLE-CIRCLE COLLISION CHECK...
+ITERATION 4 REMAINING PIECES
+Type: Rook
+Location : (-4.14069,5.04474)
+Type: Bishop
+Location : (7.25889,2.74111)
+Type: Bishop
+Location : (-5.45787,1.45787)
+Type: Bishop
+Location : (0.0762963,5.0763)
+Type: Queen
+Location : (-3.58095,-7.60976)
+Type: Queen
+Location : (9.08975,-8.0181)
+Type: Queen
+Location : (6.01621,5.35884)
+Type: Queen
+Location : (-7.32612,-4.18403)
+SQUARE-CIRCLE COLLISION CHECK...
+Collision detected!
+Type: Bishop
+Location : (-0.76513,4.23487)
+Collided with
+Type: Rook
+Location : (-3.31672,5.04474)
+CIRCLE-CIRCLE COLLISION CHECK...
+CIRCLE-CIRCLE COLLISION CHECK...
+ITERATION 5 REMAINING PIECES
+Type: Bishop
+Location : (7.65395,3.13617)
+Type: Bishop
+Location : (-6.07694,0.838801)
+Type: Bishop
+Location : (-0.76513,4.23487)
+Type: Queen
+Location : (-3.58095,-7.60976)
+Type: Queen
+Location : (9.08975,-8.0181)
+Type: Queen
+Location : (6.91629,5.35884)
+Type: Queen
+Location : (-6.56734,-4.94281)
+CIRCLE-CIRCLE COLLISION CHECK...
+CIRCLE-CIRCLE COLLISION CHECK...
+ITERATION 6 REMAINING PIECES
+Type: Bishop
+Location : (8.35463,2.4355)
+Type: Bishop
+Location : (-6.00928,0.906461)
+Type: Bishop
+Location : (-0.200812,3.67055)
+Type: Queen
+Location : (-2.82797,-8.36274)
+Type: Queen
+Location : (8.70769,-8.40016)
+Type: Queen
+Location : (7.89242,5.35884)
+Type: Queen
+Location : (-6.04825,-5.4619)
+CIRCLE-CIRCLE COLLISION CHECK...
+CIRCLE-CIRCLE COLLISION CHECK...
+ITERATION 7 REMAINING PIECES
+Type: Bishop
+Location : (8.88379,2.96466)
+Type: Bishop
+Location : (-5.8132,1.10254)
+Type: Bishop
+Location : (-0.395795,3.47557)
+Type: Queen
+Location : (-2.79559,-8.39512)
+Type: Queen
+Location : (8.53316,-8.57469)
+Type: Queen
+Location : (8.34321,5.35884)
+Type: Queen
+Location : (-6.24928,-5.66292)
+CIRCLE-CIRCLE COLLISION CHECK...
+Collision detected!
+Type: Queen
+Location : (8.01321,5.35884)
+Collided with
+Type: Bishop
+Location : (8.1366,3.71184)
+ITERATION 8 REMAINING PIECES
+Type: Bishop
+Location : (-4.98874,0.278085)
+Type: Bishop
+Location : (-0.047853,3.82351)
+Type: Queen
+Location : (-3.22477,-7.96594)
+Type: Queen
+Location : (8.53316,-8.08289)
+Type: Queen
+Location : (8.01321,5.35884)
+Type: Queen
+Location : (-6.24928,-5.66292)
+CIRCLE-CIRCLE COLLISION CHECK...
+ITERATION 9 REMAINING PIECES
+Type: Bishop
+Location : (-4.48302,0.783807)
+Type: Bishop
+Location : (-0.261635,4.03729)
+Type: Queen
+Location : (-3.41621,-7.96594)
+Type: Queen
+Location : (8.53316,-8.08176)
+Type: Queen
+Location : (7.83746,5.35884)
+Type: Queen
+Location : (-5.72164,-5.13529)
+CIRCLE-CIRCLE COLLISION CHECK...
+CIRCLE-CIRCLE COLLISION CHECK...
+ITERATION 10 REMAINING PIECES
+Type: Bishop
+Location : (-3.53893,1.7279)
+Type: Bishop
+Location : (-0.575884,4.35154)
+Type: Queen
+Location : (-4.11225,-7.96594)
+Type: Queen
+Location : (7.58791,-9.02701)
+Type: Queen
+Location : (7.81173,5.38456)
+Type: Queen
+Location : (-5.89441,-5.13529)
+CIRCLE-CIRCLE COLLISION CHECK...
+ITERATION 11 REMAINING PIECES
+Type: Bishop
+Location : (-3.09101,2.17582)
+Type: Bishop
+Location : (-0.407208,4.52022)
+Type: Queen
+Location : (-3.11469,-8.9635)
+Type: Queen
+Location : (8.48286,-8.13205)
+Type: Queen
+Location : (8.03626,5.60909)
+Type: Queen
+Location : (-6.51646,-4.51323)
+CIRCLE-CIRCLE COLLISION CHECK...
+CIRCLE-CIRCLE COLLISION CHECK...
+ITERATION 12 REMAINING PIECES
+Type: Bishop
+Location : (-2.73312,2.53371)
+Type: Bishop
+Location : (0.0186163,4.09439)
+Type: Queen
+Location : (-3.38389,-8.6943)
+Type: Queen
+Location : (9.21833,-8.13205)
+Type: Queen
+Location : (7.52266,5.09549)
+Type: Queen
+Location : (-6.51646,-5.50481)
+CIRCLE-CIRCLE COLLISION CHECK...
+ITERATION 13 REMAINING PIECES
+Type: Bishop
+Location : (-3.24586,2.02097)
+Type: Bishop
+Location : (0.920347,4.99612)
+Type: Queen
+Location : (-3.38389,-9.06372)
+Type: Queen
+Location : (8.3094,-8.13205)
+Type: Queen
+Location : (7.07285,5.09549)
+Type: Queen
+Location : (-5.69945,-6.32182)
+CIRCLE-CIRCLE COLLISION CHECK...
+ITERATION 14 REMAINING PIECES
+Type: Bishop
+Location : (-3.8739,2.64901)
+Type: Bishop
+Location : (1.46538,4.45109)
+Type: Queen
+Location : (-4.02512,-8.4225)
+Type: Queen
+Location : (8.33671,-8.13205)
+Type: Queen
+Location : (7.40815,4.76019)
+Type: Queen
+Location : (-6.27818,-6.32182)
+CIRCLE-CIRCLE COLLISION CHECK...
+ITERATION 15 REMAINING PIECES
+Type: Bishop
+Location : (-4.35325,2.16965)
+Type: Bishop
+Location : (1.52345,4.50917)
+Type: Queen
+Location : (-4.66268,-9.06006)
+Type: Queen
+Location : (8.33671,-8.72164)
+Type: Queen
+Location : (6.54781,3.89984)
+Type: Queen
+Location : (-6.06958,-6.32182)
+CIRCLE-CIRCLE COLLISION CHECK...
+Collision detected!
+Type: Queen
+Location : (-6.48393,-6.73617)
+Collided with
+Type: Queen
+Location : (-5.53877,-8.18397)
+ITERATION 16 REMAINING PIECES
+Type: Bishop
+Location : (-3.68865,1.50505)
+Type: Bishop
+Location : (0.670736,3.65645)
+Type: Queen
+Location : (7.49419,-9.56417)
+Type: Queen
+Location : (6.43834,4.00931)
+Type: Queen
+Location : (-6.48393,-6.73617)
+ITERATION 17 REMAINING PIECES
+Type: Bishop
+Location : (-3.68099,1.51271)
+Type: Bishop
+Location : (0.443709,3.88348)
+Type: Queen
+Location : (7.90475,-9.56417)
+Type: Queen
+Location : (5.92462,4.00931)
+Type: Queen
+Location : (-6.09009,-6.73617)
+ITERATION 18 REMAINING PIECES
+Type: Bishop
+Location : (-4.4521,2.28382)
+Type: Bishop
+Location : (0.250984,4.0762)
+Type: Queen
+Location : (7.74267,-9.40208)
+Type: Queen
+Location : (6.44951,3.48442)
+Type: Queen
+Location : (-6.09009,-7.5707)
+ITERATION 19 REMAINING PIECES
+Type: Bishop
+Location : (-4.86779,1.86813)
+Type: Bishop
+Location : (0.215369,4.04059)
+Type: Queen
+Location : (7.48824,-9.40208)
+Type: Queen
+Location : (5.75237,4.18155)
+Type: Queen
+Location : (-6.53551,-8.01611)
+ITERATION 20 REMAINING PIECES
+Type: Bishop
+Location : (-5.10337,1.63256)
+Type: Bishop
+Location : (-0.38374,3.44148)
+Type: Queen
+Location : (6.70394,-8.61779)
+Type: Queen
+Location : (5.75237,3.27964)
+Type: Queen
+Location : (-5.89471,-8.65691)
+ITERATION 21 REMAINING PIECES
+Type: Bishop
+Location : (-5.48079,1.25513)
+Type: Bishop
+Location : (-0.907834,2.91739)
+Type: Queen
+Location : (5.72158,-9.60015)
+Type: Queen
+Location : (5.20746,3.82455)
+Type: Queen
+Location : (-5.89471,-9.33677)
+CIRCLE-CIRCLE COLLISION CHECK...
+ITERATION 22 REMAINING PIECES
+Type: Bishop
+Location : (-4.60024,0.374584)
+Type: Bishop
+Location : (-1.47179,2.35343)
+Type: Queen
+Location : (5.55065,-9.42921)
+Type: Queen
+Location : (5.84649,3.82455)
+Type: Queen
+Location : (-6.70617,-9.33677)
+CIRCLE-CIRCLE COLLISION CHECK...
+ITERATION 23 REMAINING PIECES
+Type: Bishop
+Location : (-4.38939,0.163732)
+Type: Bishop
+Location : (-1.03858,2.78665)
+Type: Queen
+Location : (5.38124,-9.42921)
+Type: Queen
+Location : (5.77493,3.89611)
+Type: Queen
+Location : (-6.70617,-9.32264)
+CIRCLE-CIRCLE COLLISION CHECK...
+ITERATION 24 REMAINING PIECES
+Type: Bishop
+Location : (-3.51238,1.04074)
+Type: Bishop
+Location : (-0.562639,3.26258)
+Type: Queen
+Location : (5.408,-9.45598)
+Type: Queen
+Location : (6.33412,4.45531)
+Type: Queen
+Location : (-6.20258,-9.82623)
+CIRCLE-CIRCLE COLLISION CHECK...
+ITERATION 25 REMAINING PIECES
+Type: Bishop
+Location : (-4.12436,1.65273)
+Type: Bishop
+Location : (-1.47237,4.17231)
+Type: Queen
+Location : (5.5016,-9.45598)
+Type: Queen
+Location : (5.70003,3.82122)
+Type: Queen
+Location : (-6.20258,-9.17078)
+CIRCLE-CIRCLE COLLISION CHECK...
+ITERATION 26 REMAINING PIECES
+Type: Bishop
+Location : (-4.04798,1.72912)
+Type: Bishop
+Location : (-2.433,5.13294)
+Type: Queen
+Location : (5.02872,-9.45598)
+Type: Queen
+Location : (5.90124,3.82122)
+Type: Queen
+Location : (-6.20258,-8.67837)
+CIRCLE-CIRCLE COLLISION CHECK...
+ITERATION 27 REMAINING PIECES
+Type: Bishop
+Location : (-4.93707,2.61821)
+Type: Bishop
+Location : (-2.63524,4.93069)
+Type: Queen
+Location : (5.02872,-9.32954)
+Type: Queen
+Location : (6.32023,3.40223)
+Type: Queen
+Location : (-6.20258,-9.04279)
+CIRCLE-CIRCLE COLLISION CHECK...
+ITERATION 28 REMAINING PIECES
+Type: Bishop
+Location : (-5.41276,3.09391)
+Type: Bishop
+Location : (-2.77584,5.07129)
+Type: Queen
+Location : (5.02872,-25.0287)
+Type: Queen
+Location : (5.8811,3.84136)
+Type: Queen
+Location : (-6.75549,-8.48988)
+CIRCLE-CIRCLE COLLISION CHECK...
+ITERATION 29 REMAINING PIECES
+Type: Bishop
+Location : (-6.1959,2.31077)
+Type: Bishop
+Location : (-2.21433,4.50978)
+Type: Queen
+Location : (4.73113,-24.7311)
+Type: Queen
+Location : (5.32649,3.28675)
+Type: Queen
+Location : (-6.29048,-8.02487)
+ITERATION 30 REMAINING PIECES
+Type: Bishop
+Location : (-7.1785,1.32817)
+Type: Bishop
+Location : (-3.00546,3.71865)
+Type: Queen
+Location : (4.73113,-24.7311)
+Type: Queen
+Location : (4.45082,2.41108)
+Type: Queen
+Location : (-6.47069,-8.20508)
+CIRCLE-CIRCLE COLLISION CHECK...
+ITERATION 31 REMAINING PIECES
+Type: Bishop
+Location : (-6.57781,0.72747)
+Type: Bishop
+Location : (-2.85839,3.57158)
+Type: Queen
+Location : (5.3618,-25.3618)
+Type: Queen
+Location : (4.30192,2.55998)
+Type: Queen
+Location : (-6.47069,-9.14545)
+CIRCLE-CIRCLE COLLISION CHECK...
+ITERATION 32 REMAINING PIECES
+Type: Bishop
+Location : (-7.34275,1.49242)
+Type: Bishop
+Location : (-3.56352,4.27671)
+Type: Queen
+Location : (6.02927,-26.0293)
+Type: Queen
+Location : (4.30192,1.76019)
+Type: Queen
+Location : (-5.66948,-9.94665)
+CIRCLE-CIRCLE COLLISION CHECK...
+ITERATION 33 REMAINING PIECES
+Type: Bishop
+Location : (-6.73595,2.09922)
+Type: Bishop
+Location : (-2.81103,5.02921)
+Type: Queen
+Location : (6.1034,-26.1034)
+Type: Queen
+Location : (4.53951,1.99777)
+Type: Queen
+Location : (-5.66948,-9.21632)
+ITERATION 34 REMAINING PIECES
+Type: Bishop
+Location : (-7.64892,1.18625)
+Type: Bishop
+Location : (-2.10138,5.73885)
+Type: Queen
+Location : (6.98602,-26.986)
+Type: Queen
+Location : (5.51631,1.02097)
+Type: Queen
+Location : (-6.64837,-13.3516)
+ITERATION 35 REMAINING PIECES
+Type: Bishop
+Location : (-7.06738,1.76778)
+Type: Bishop
+Location : (-1.35823,6.48201)
+Type: Queen
+Location : (7.04221,-27.0422)
+Type: Queen
+Location : (5.17521,1.36207)
+Type: Queen
+Location : (-6.51411,-13.4859)
+ITERATION 36 REMAINING PIECES
+Type: Bishop
+Location : (-7.31962,2.02002)
+Type: Bishop
+Location : (-2.16163,7.28541)
+Type: Queen
+Location : (7.74465,-27.7447)
+Type: Queen
+Location : (4.21183,1.36207)
+Type: Queen
+Location : (-6.43223,-13.5678)
+ITERATION 37 REMAINING PIECES
+Type: Bishop
+Location : (-7.44313,1.89651)
+Type: Bishop
+Location : (-3.08856,8.21235)
+Type: Queen
+Location : (8.51155,-28.5116)
+Type: Queen
+Location : (4.18213,1.39177)
+Type: Queen
+Location : (-6.22724,-13.7728)
+ITERATION 38 REMAINING PIECES
+Type: Bishop
+Location : (-6.94626,1.39964)
+Type: Bishop
+Location : (-3.29691,8.4207)
+Type: Queen
+Location : (8.129,-28.129)
+Type: Queen
+Location : (4.65435,1.39177)
+Type: Queen
+Location : (-6.66619,-13.3338)
+ITERATION 39 REMAINING PIECES
+Type: Bishop
+Location : (-6.34758,1.99832)
+Type: Bishop
+Location : (-4.24595,9.36973)
+Type: Queen
+Location : (7.72613,-27.7261)
+Type: Queen
+Location : (5.3599,2.09732)
+Type: Queen
+Location : (-5.93353,-14.0665)
+ITERATION 40 REMAINING PIECES
+Type: Bishop
+Location : (-6.68917,2.33992)
+Type: Bishop
+Location : (-3.26731,8.39109)
+Type: Queen
+Location : (7.72613,-27.7261)
+Type: Queen
+Location : (4.67077,1.40819)
+Type: Queen
+Location : (-6.10428,-13.8957)
+ITERATION 41 REMAINING PIECES
+Type: Bishop
+Location : (-7.37654,3.02728)
+Type: Bishop
+Location : (-2.96649,8.09027)
+Type: Queen
+Location : (8.27836,-28.2784)
+Type: Queen
+Location : (5.08072,1.40819)
+Type: Queen
+Location : (-6.01758,-13.9824)
+ITERATION 42 REMAINING PIECES
+Type: Bishop
+Location : (-7.48711,2.91671)
+Type: Bishop
+Location : (-3.85125,7.20551)
+Type: Queen
+Location : (7.62377,-27.6238)
+Type: Queen
+Location : (5.08072,2.34135)
+Type: Queen
+Location : (-6.25346,-13.7465)
+ITERATION 43 REMAINING PIECES
+Type: Bishop
+Location : (-7.52022,2.8836)
+Type: Bishop
+Location : (-3.48573,7.57103)
+Type: Queen
+Location : (7.69741,-27.6974)
+Type: Queen
+Location : (4.20505,3.21702)
+Type: Queen
+Location : (-5.45866,-14.5413)
+ITERATION 44 REMAINING PIECES
+Type: Bishop
+Location : (-7.46336,2.82675)
+Type: Bishop
+Location : (-3.20731,7.29261)
+Type: Queen
+Location : (7.24021,-27.2402)
+Type: Queen
+Location : (4.20505,3.01013)
+Type: Queen
+Location : (-5.45866,-14.5413)
+ITERATION 45 REMAINING PIECES
+Type: Bishop
+Location : (-6.67412,2.03751)
+Type: Bishop
+Location : (-3.55257,7.63787)
+Type: Queen
+Location : (6.82525,-26.8253)
+Type: Queen
+Location : (3.22196,3.99322)
+Type: Queen
+Location : (-5.89041,-14.1096)
+ITERATION 46 REMAINING PIECES
+Type: Bishop
+Location : (-7.46348,2.82687)
+Type: Bishop
+Location : (-3.45103,7.53633)
+Type: Queen
+Location : (6.82525,-26.8253)
+Type: Queen
+Location : (2.51128,4.70391)
+Type: Queen
+Location : (-5.89041,-14.1096)
+ITERATION 47 REMAINING PIECES
+Type: Bishop
+Location : (-8.43925,1.8511)
+Type: Bishop
+Location : (-3.85214,7.93744)
+Type: Queen
+Location : (6.82525,-26.8253)
+Type: Queen
+Location : (1.75298,5.4622)
+Type: Queen
+Location : (-6.73641,-13.2636)
+ITERATION 48 REMAINING PIECES
+Type: Bishop
+Location : (-7.47606,0.887906)
+Type: Bishop
+Location : (-4.46376,7.32582)
+Type: Queen
+Location : (6.01593,-26.0159)
+Type: Queen
+Location : (1.07508,5.4622)
+Type: Queen
+Location : (-6.26157,-13.7384)
+ITERATION 49 REMAINING PIECES
+Type: Bishop
+Location : (-8.05399,0.309977)
+Type: Bishop
+Location : (-4.27671,7.13877)
+Type: Queen
+Location : (6.01593,-26.0159)
+Type: Queen
+Location : (1.07508,5.67678)
+Type: Queen
+Location : (-6.93167,-13.0683)
+ITERATION 50 REMAINING PIECES
+Type: Bishop
+Location : (-7.88989,0.474075)
+Type: Bishop
+Location : (-4.75509,6.66039)
+Type: Queen
+Location : (5.58486,-25.5849)
+Type: Queen
+Location : (1.07508,4.85018)
+Type: Queen
+Location : (-6.03458,-13.9654)
+ITERATION 51 REMAINING PIECES
+Type: Bishop
+Location : (-8.31199,0.051973)
+Type: Bishop
+Location : (-4.96435,6.86966)
+Type: Queen
+Location : (4.84945,-24.8495)
+Type: Queen
+Location : (1.97003,3.95523)
+Type: Queen
+Location : (-6.03458,-13.9654)
+ITERATION 52 REMAINING PIECES
+Type: Bishop
+Location : (-8.93417,-0.570208)
+Type: Bishop
+Location : (-4.75845,6.66375)
+Type: Queen
+Location : (5.49355,-25.4935)
+Type: Queen
+Location : (1.97003,3.05356)
+Type: Queen
+Location : (-5.77996,-14.22)
+ITERATION 53 REMAINING PIECES
+Type: Bishop
+Location : (-9.11316,-0.391217)
+Type: Bishop
+Location : (-5.20624,6.21595)
+Type: Queen
+Location : (4.94076,-24.9408)
+Type: Queen
+Location : (1.55348,2.63701)
+Type: Queen
+Location : (-5.74386,-14.2561)
+ITERATION 54 REMAINING PIECES
+Type: Bishop
+Location : (-9.55345,-0.831507)
+Type: Bishop
+Location : (-5.06955,6.35264)
+Type: Queen
+Location : (4.98755,-24.9875)
+Type: Queen
+Location : (1.23069,2.63701)
+Type: Queen
+Location : (-6.17463,-13.8254)
+ITERATION 55 REMAINING PIECES
+Type: Bishop
+Location : (-9.94998,-0.43498)
+Type: Bishop
+Location : (-4.16648,7.25571)
+Type: Queen
+Location : (4.5945,-24.5945)
+Type: Queen
+Location : (0.687368,3.18033)
+Type: Queen
+Location : (-6.17463,-13.8254)
+ITERATION 56 REMAINING PIECES
+Type: Bishop
+Location : (-9.19224,-1.19272)
+Type: Bishop
+Location : (-4.15058,7.23981)
+Type: Queen
+Location : (4.5945,-24.5945)
+Type: Queen
+Location : (0.481338,3.38636)
+Type: Queen
+Location : (-5.28675,-14.7132)
+ITERATION 57 REMAINING PIECES
+Type: Bishop
+Location : (-8.68999,-1.69497)
+Type: Bishop
+Location : (-3.93191,7.45848)
+Type: Queen
+Location : (3.87173,-23.8717)
+Type: Queen
+Location : (0.275979,3.18101)
+Type: Queen
+Location : (-5.28675,-14.7132)
+ITERATION 58 REMAINING PIECES
+Type: Bishop
+Location : (-8.81991,-1.56505)
+Type: Bishop
+Location : (-3.73089,7.6595)
+Type: Queen
+Location : (3.87173,-23.8717)
+Type: Queen
+Location : (0.275979,3.51131)
+Type: Queen
+Location : (-5.23875,-14.7613)
+ITERATION 59 REMAINING PIECES
+Type: Bishop
+Location : (-8.55901,-1.30415)
+Type: Bishop
+Location : (-4.26762,7.12278)
+Type: Queen
+Location : (2.95419,-22.9542)
+Type: Queen
+Location : (0.275979,3.39079)
+Type: Queen
+Location : (-4.90448,-15.0955)
+ITERATION 60 REMAINING PIECES
+Type: Bishop
+Location : (-7.82904,-2.03412)
+Type: Bishop
+Location : (-4.84994,6.54045)
+Type: Queen
+Location : (2.95419,-22.9542)
+Type: Queen
+Location : (-0.183111,2.9317)
+Type: Queen
+Location : (-4.90448,-15.0955)
+ITERATION 61 REMAINING PIECES
+Type: Bishop
+Location : (-8.80566,-1.0575)
+Type: Bishop
+Location : (-4.66649,6.35701)
+Type: Queen
+Location : (2.6469,-22.6469)
+Type: Queen
+Location : (-0.0901212,2.83871)
+Type: Queen
+Location : (-4.54085,-15.4592)
+ITERATION 62 REMAINING PIECES
+Type: Bishop
+Location : (-8.5002,-1.36296)
+Type: Bishop
+Location : (-5.02561,6.71612)
+Type: Queen
+Location : (2.02155,-22.0215)
+Type: Queen
+Location : (-0.0901212,2.70293)
+Type: Queen
+Location : (-4.54085,-15.4592)
+ITERATION 63 REMAINING PIECES
+Type: Bishop
+Location : (-8.21104,-1.07379)
+Type: Bishop
+Location : (-4.40849,6.099)
+Type: Queen
+Location : (2.02155,-22.0215)
+Type: Queen
+Location : (-0.0901212,1.77453)
+Type: Queen
+Location : (-4.31877,-15.6812)
+ITERATION 64 REMAINING PIECES
+Type: Bishop
+Location : (-7.35411,-0.216865)
+Type: Bishop
+Location : (-3.69915,6.80834)
+Type: Queen
+Location : (2.02155,-22.0215)
+Type: Queen
+Location : (0.77102,1.77453)
+Type: Queen
+Location : (-4.86087,-15.1391)
+ITERATION 65 REMAINING PIECES
+Type: Bishop
+Location : (-7.95035,-0.813105)
+Type: Bishop
+Location : (-3.44508,7.06241)
+Type: Queen
+Location : (1.69521,-21.6952)
+Type: Queen
+Location : (0.91522,1.77453)
+Type: Queen
+Location : (-4.86087,-15.1391)
+ITERATION 66 REMAINING PIECES
+Type: Bishop
+Location : (-7.22874,-1.53471)
+Type: Bishop
+Location : (-3.72308,6.78442)
+Type: Queen
+Location : (1.69521,-21.6952)
+Type: Queen
+Location : (0.239021,1.77453)
+Type: Queen
+Location : (-5.02441,-14.9756)
+ITERATION 67 REMAINING PIECES
+Type: Bishop
+Location : (-7.386,-1.37745)
+Type: Bishop
+Location : (-4.56902,7.63036)
+Type: Queen
+Location : (1.11344,-21.1134)
+Type: Queen
+Location : (0.157018,1.85653)
+Type: Queen
+Location : (-5.02441,-14.9756)
+ITERATION 68 REMAINING PIECES
+Type: Bishop
+Location : (-8.12165,-2.1131)
+Type: Bishop
+Location : (-4.52815,7.67122)
+Type: Queen
+Location : (1.11344,-21.1134)
+Type: Queen
+Location : (-0.242744,2.25629)
+Type: Queen
+Location : (-4.23572,-15.7643)
+ITERATION 69 REMAINING PIECES
+Type: Bishop
+Location : (-7.72988,-2.50487)
+Type: Bishop
+Location : (-3.56941,8.62996)
+Type: Queen
+Location : (1.20631,-21.2063)
+Type: Queen
+Location : (-0.242744,2.314)
+Type: Queen
+Location : (-4.5858,-15.4142)
+ITERATION 70 REMAINING PIECES
+Type: Bishop
+Location : (-8.05841,-2.8334)
+Type: Bishop
+Location : (-3.55211,8.61266)
+Type: Queen
+Location : (0.364269,-20.3643)
+Type: Queen
+Location : (-1.15375,1.403)
+Type: Queen
+Location : (-4.23078,-15.7692)
+ITERATION 71 REMAINING PIECES
+Type: Bishop
+Location : (-7.22712,-3.66469)
+Type: Bishop
+Location : (-4.48357,9.54411)
+Type: Queen
+Location : (0.364269,-20.3643)
+Type: Queen
+Location : (-1.89587,2.14512)
+Type: Queen
+Location : (-3.97604,-16.024)
+CIRCLE-CIRCLE COLLISION CHECK...
+ITERATION 72 REMAINING PIECES
+Type: Bishop
+Location : (-7.28141,-3.71899)
+Type: Bishop
+Location : (-4.83346,9.89401)
+Type: Queen
+Location : (-0.601917,-19.3981)
+Type: Queen
+Location : (-1.96799,2.21723)
+Type: Queen
+Location : (-3.97604,-16.024)
+CIRCLE-CIRCLE COLLISION CHECK...
+ITERATION 73 REMAINING PIECES
+Type: Bishop
+Location : (-7.13794,-3.86245)
+Type: Bishop
+Location : (-5.68538,9.04209)
+Type: Queen
+Location : (-0.969817,-19.0302)
+Type: Queen
+Location : (-2.57076,2.21723)
+Type: Queen
+Location : (-3.13645,-16.8636)
+CIRCLE-CIRCLE COLLISION CHECK...
+Collision detected!
+Type: Queen
+Location : (-2.4738,-17.5262)
+Collided with
+Type: Queen
+Location : (-1.31819,-18.6818)
+ITERATION 74 REMAINING PIECES
+Type: Bishop
+Location : (-6.22333,-2.94784)
+Type: Bishop
+Location : (-6.19703,8.53044)
+Type: Queen
+Location : (-2.57076,2.58647)
+Type: Queen
+Location : (-2.4738,-17.5262)
+ITERATION 75 REMAINING PIECES
+Type: Bishop
+Location : (-6.39689,-2.77429)
+Type: Bishop
+Location : (-5.97885,8.31227)
+Type: Queen
+Location : (-2.57076,3.50761)
+Type: Queen
+Location : (-3.34123,-16.6588)
+ITERATION 76 REMAINING PIECES
+Type: Bishop
+Location : (-7.3029,-3.68029)
+Type: Bishop
+Location : (-5.8764,8.20981)
+Type: Queen
+Location : (-2.57076,3.77352)
+Type: Queen
+Location : (-3.34123,-16.6588)
+ITERATION 77 REMAINING PIECES
+Type: Bishop
+Location : (-6.83599,-4.14719)
+Type: Bishop
+Location : (-5.72842,8.3578)
+Type: Queen
+Location : (-2.57076,2.81997)
+Type: Queen
+Location : (-3.34123,-16.6588)
+ITERATION 78 REMAINING PIECES
+Type: Bishop
+Location : (-7.35246,-4.66366)
+Type: Bishop
+Location : (-5.60765,8.23704)
+Type: Queen
+Location : (-1.6332,2.81997)
+Type: Queen
+Location : (-2.42918,-17.5708)
+ITERATION 79 REMAINING PIECES
+Type: Bishop
+Location : (-7.14997,-4.46117)
+Type: Bishop
+Location : (-4.67602,9.16868)
+Type: Queen
+Location : (-1.6332,2.9049)
+Type: Queen
+Location : (-1.85229,-18.1477)
+ITERATION 80 REMAINING PIECES
+Type: Bishop
+Location : (-8.03668,-5.34788)
+Type: Bishop
+Location : (-4.07886,8.57152)
+Type: Queen
+Location : (-1.99115,2.9049)
+Type: Queen
+Location : (-1.2071,-18.7929)
+ITERATION 81 REMAINING PIECES
+Type: Bishop
+Location : (-7.87906,-5.19025)
+Type: Bishop
+Location : (-3.25538,7.74804)
+Type: Queen
+Location : (-2.4514,3.36515)
+Type: Queen
+Location : (-0.6274,-19.3726)
+CIRCLE-CIRCLE COLLISION CHECK...
+ITERATION 82 REMAINING PIECES
+Type: Bishop
+Location : (-7.41716,-5.65215)
+Type: Bishop
+Location : (-3.64165,7.36177)
+Type: Queen
+Location : (-3.35496,4.26872)
+Type: Queen
+Location : (-1.62661,-18.3734)
+CIRCLE-CIRCLE COLLISION CHECK...
+Collision detected!
+Type: Queen
+Location : (-3.35496,5.22544)
+Collided with
+Type: Bishop
+Location : (-4.2429,6.76052)
+ITERATION 83 REMAINING PIECES
+Type: Bishop
+Location : (-7.46999,-5.70498)
+Type: Queen
+Location : (-3.35496,5.22544)
+Type: Queen
+Location : (-1.62661,-18.3734)
+ITERATION 84 REMAINING PIECES
+Type: Bishop
+Location : (-8.12317,-5.05179)
+Type: Queen
+Location : (-2.76531,4.63579)
+Type: Queen
+Location : (-1.62661,-18.3734)
+ITERATION 85 REMAINING PIECES
+Type: Bishop
+Location : (-7.87454,-5.30042)
+Type: Queen
+Location : (-1.98444,5.41667)
+Type: Queen
+Location : (-1.46342,-18.5366)
+ITERATION 86 REMAINING PIECES
+Type: Bishop
+Location : (-7.71422,-5.46074)
+Type: Queen
+Location : (-2.41929,5.41667)
+Type: Queen
+Location : (-1.89499,-18.105)
+ITERATION 87 REMAINING PIECES
+Type: Bishop
+Location : (-7.18458,-5.99039)
+Type: Queen
+Location : (-1.61821,6.21775)
+Type: Queen
+Location : (-2.70644,-17.2936)
+ITERATION 88 REMAINING PIECES
+Type: Bishop
+Location : (-7.85156,-5.3234)
+Type: Queen
+Location : (-2.01407,6.21775)
+Type: Queen
+Location : (-3.5934,-16.4066)
+ITERATION 89 REMAINING PIECES
+Type: Bishop
+Location : (-7.39326,-5.7817)
+Type: Queen
+Location : (-1.22159,6.21775)
+Type: Queen
+Location : (-4.37654,-15.6235)
+ITERATION 90 REMAINING PIECES
+Type: Bishop
+Location : (-7.05594,-6.11902)
+Type: Queen
+Location : (-0.639882,5.63604)
+Type: Queen
+Location : (-4.98968,-15.0103)
+ITERATION 91 REMAINING PIECES
+Type: Bishop
+Location : (-7.22694,-6.29002)
+Type: Queen
+Location : (-0.639882,5.16657)
+Type: Queen
+Location : (-4.9913,-15.0087)
+ITERATION 92 REMAINING PIECES
+Type: Bishop
+Location : (-7.87469,-6.93777)
+Type: Queen
+Location : (0.0961943,4.43049)
+Type: Queen
+Location : (-4.34928,-15.6507)
+ITERATION 93 REMAINING PIECES
+Type: Bishop
+Location : (-8.60631,-6.20615)
+Type: Queen
+Location : (-0.624805,4.43049)
+Type: Queen
+Location : (-5.24955,-14.7505)
+ITERATION 94 REMAINING PIECES
+Type: Bishop
+Location : (-9.09201,-5.72045)
+Type: Queen
+Location : (-0.624805,5.3495)
+Type: Queen
+Location : (-4.67742,-15.3226)
+ITERATION 95 REMAINING PIECES
+Type: Bishop
+Location : (-8.60698,-6.20548)
+Type: Queen
+Location : (-0.584918,5.3495)
+Type: Queen
+Location : (-5.5233,-14.4767)
+ITERATION 96 REMAINING PIECES
+Type: Bishop
+Location : (-9.44029,-7.03879)
+Type: Queen
+Location : (-0.584918,6.19477)
+Type: Queen
+Location : (-5.96097,-14.039)
+ITERATION 97 REMAINING PIECES
+Type: Bishop
+Location : (-8.92083,-7.55824)
+Type: Queen
+Location : (-0.781487,5.9982)
+Type: Queen
+Location : (-6.84988,-13.1501)
+ITERATION 98 REMAINING PIECES
+Type: Bishop
+Location : (-8.811,-7.44841)
+Type: Queen
+Location : (-1.4384,5.34129)
+Type: Queen
+Location : (-6.84988,-13.1501)
+ITERATION 99 REMAINING PIECES
+Type: Bishop
+Location : (-8.81677,-7.44264)
+Type: Queen
+Location : (-1.4384,6.13962)
+Type: Queen
+Location : (-6.84988,-13.1501)
+ITERATION 100 REMAINING PIECES
+Type: Bishop
+Location : (-8.96567,-7.29374)
+Type: Queen
+Location : (-0.834346,6.74368)
+Type: Queen
+Location : (-6.84988,-13.1501)
+GAME OVER!
+Remaining pieces:
+Type: Bishop
+Location : (-8.96567,-7.29374)
+Remaining pieces:
+Type: Queen
+Location : (-0.834346,6.74368)
+Remaining pieces:
+Type: Queen
+Location : (-6.84988,-13.1501)
+Final scores:
+Rook captures: 1
+Bishop captures: 4
+Queen captures: 7
+
+C:\Users\Adam Barron\source\repos\CSC3221Project2\Debug\CSC3221Project2.exe (process 21332) exited with code 0.
+Press any key to close this window . . .
+
+*** OTHER RUNS (without extra debug info) ***
+
+*** RUN 1 ***
+
+GAME STARTED!
+Collision detected!
+Type: Queen
+Location : (5.17664,6.17664)
+Collided with
+Type: Rook
+Location : (3.74071,6)
+Collision detected!
+Type: Queen
+Location : (4.85244,4.39741)
+Collided with
+Type: Queen
+Location : (5.9248,5.84307)
+Collision detected!
+Type: Bishop
+Location : (-8.47087,8.48415)
+Collided with
+Type: Rook
+Location : (-9.5161,9.2964)
+Collision detected!
+Type: Queen
+Location : (3.58519,3.1753)
+Collided with
+Type: Bishop
+Location : (1.8345,2.69802)
+Collision detected!
+Type: Queen
+Location : (-7.82653,-2.38643)
+Collided with
+Type: Rook
+Location : (-8.3314,-2.13535)
+Collision detected!
+Type: Queen
+Location : (-8.85968,0.257729)
+Collided with
+Type: Bishop
+Location : (-8.11618,1.60527)
+Collision detected!
+Type: Queen
+Location : (5.99026,4.34843)
+Collided with
+Type: Bishop
+Location : (5.05896,6.11417)
+Collision detected!
+Type: Queen
+Location : (5.12546,0.561998)
+Collided with
+Type: Bishop
+Location : (4.86929,-0.902554)
+Collision detected!
+Type: Queen
+Location : (7.35304,-2.53304)
+Collided with
+Type: Rook
+Location : (7.58226,-2.42998)
+GAME OVER!
+Remaining pieces:
+Type: Rook
+Location : (-0.883724,-4.8106)
+Remaining pieces:
+Type: Bishop
+Location : (-7.32026,-12.6797)
+Remaining pieces:
+Type: Queen
+Location : (9.08032,-29.0803)
+Remaining pieces:
+Type: Queen
+Location : (-9.30274,-1.62914)
+Remaining pieces:
+Type: Queen
+Location : (-2.76782,4.72539)
+Remaining pieces:
+Type: Queen
+Location : (6.9678,-3.38978)
+Final scores:
+Rook captures: 0
+Bishop captures: 1
+Queen captures: 8
+
+C:\Users\Adam Barron\source\repos\CSC3221Project2\Debug\CSC3221Project2.exe (process 18520) exited with code 0.
+Press any key to close this window . . .
+
+*** RUN 2 ***
+
+GAME STARTED!
+Collision detected!
+Type: Rook
+Location : (0.0270699,-3)
+Collided with
+Type: Rook
+Location : (-0.852901,-4)
+Collision detected!
+Type: Queen
+Location : (7.98795,3.01205)
+Collided with
+Type: Bishop
+Location : (6.66295,2.66295)
+Collision detected!
+Type: Queen
+Location : (-3.61205,-4.38795)
+Collided with
+Type: Queen
+Location : (-4.33671,-2.66329)
+Collision detected!
+Type: Queen
+Location : (-3.61205,-3.75332)
+Collided with
+Type: Rook
+Location : (-3,-3.91278)
+Collision detected!
+Type: Queen
+Location : (4.92285,6.83398)
+Collided with
+Type: Bishop
+Location : (4.7955,8.01776)
+Collision detected!
+Type: Queen
+Location : (-1.55562,-0.603473)
+Collided with
+Type: Rook
+Location : (-2.33766,-3.47591)
+Collision detected!
+Type: Rook
+Location : (-5.51344,-7.99112)
+Collided with
+Type: Rook
+Location : (-5.25556,-9.88787)
+Collision detected!
+Type: Queen
+Location : (-6.97122,3.66405)
+Collided with
+Type: Bishop
+Location : (-5.36369,3.83901)
+Collision detected!
+Type: Bishop
+Location : (8.17673,-28.1767)
+Collided with
+Type: Bishop
+Location : (7.38252,-27.3825)
+GAME OVER!
+Remaining pieces:
+Type: Rook
+Location : (-7.59722,-12.4028)
+Remaining pieces:
+Type: Bishop
+Location : (8.34498,-28.345)
+Remaining pieces:
+Type: Queen
+Location : (5.90762,9.10724)
+Remaining pieces:
+Type: Queen
+Location : (-9.60152,3.31349)
+Remaining pieces:
+Type: Queen
+Location : (9.0199,-2.0213)
+Remaining pieces:
+Type: Queen
+Location : (-3.47884,-2.63039)
+Final scores:
+Rook captures: 2
+Bishop captures: 1
+Queen captures: 6
+
+C:\Users\Adam Barron\source\repos\CSC3221Project2\Debug\CSC3221Project2.exe (process 8972) exited with code 0.
+Press any key to close this window . . .
+
+*** RUN 3 ***
+
+GAME STARTED!
+Collision detected!
+Type: Rook
+Location : (5,7.53209)
+Collided with
+Type: Rook
+Location : (6,9.24763)
+Collision detected!
+Type: Queen
+Location : (2.51399,9.51399)
+Collided with
+Type: Rook
+Location : (1,6.85018)
+Collision detected!
+Type: Queen
+Location : (2.19636,10)
+Collided with
+Type: Queen
+Location : (2.51399,9.98822)
+Collision detected!
+Type: Queen
+Location : (1.30525,9.13794)
+Collided with
+Type: Bishop
+Location : (1.03427,7.57543)
+Collision detected!
+Type: Bishop
+Location : (-4.06174,1.82046)
+Collided with
+Type: Bishop
+Location : (-2.49028,1.20167)
+Collision detected!
+Type: Queen
+Location : (-7.09735,4.61)
+Collided with
+Type: Rook
+Location : (-8.72585,5.57894)
+Collision detected!
+Type: Bishop
+Location : (-2.04505,1.50322)
+Collided with
+Type: Bishop
+Location : (-2.98358,1.2132)
+Collision detected!
+Type: Queen
+Location : (4.18888,7.37687)
+Collided with
+Type: Rook
+Location : (1.40709,7.72713)
+Collision detected!
+Type: Queen
+Location : (-9.29954,-0.404553)
+Collided with
+Type: Bishop
+Location : (-9.03058,-1.67647)
+GAME OVER!
+Remaining pieces:
+Type: Rook
+Location : (0.758324,-20.7583)
+Remaining pieces:
+Type: Bishop
+Location : (2.89926,2.62099)
+Remaining pieces:
+Type: Queen
+Location : (-3.49657,5.08911)
+Remaining pieces:
+Type: Queen
+Location : (4.20371,-4.95801)
+Remaining pieces:
+Type: Queen
+Location : (-8.14246,-0.0469985)
+Remaining pieces:
+Type: Queen
+Location : (6.12586,7.79836)
+Final scores:
+Rook captures: 1
+Bishop captures: 2
+Queen captures: 6
+
+C:\Users\Adam Barron\source\repos\CSC3221Project2\Debug\CSC3221Project2.exe (process 20088) exited with code 0.
+Press any key to close this window . . .
+
+*** Run 4 ***
+
+GAME STARTED!
+Collision detected!
+Type: Bishop
+Location : (4.55208,3.44792)
+Collided with
+Type: Rook
+Location : (3.94101,3)
+Collision detected!
+Type: Queen
+Location : (3.7814,-4.06223)
+Collided with
+Type: Bishop
+Location : (3.31513,-3.76257)
+Collision detected!
+Type: Queen
+Location : (-5.40764,8.62508)
+Collided with
+Type: Rook
+Location : (-8.24122,6.73946)
+Collision detected!
+Type: Queen
+Location : (-0.940031,0.350444)
+Collided with
+Type: Bishop
+Location : (-2.34364,1.28449)
+Collision detected!
+Type: Queen
+Location : (9.10572,7.90027)
+Collided with
+Type: Rook
+Location : (6.55171,7.481)
+Collision detected!
+Type: Queen
+Location : (7.88632,4.90445)
+Collided with
+Type: Rook
+Location : (7.38856,2.39326)
+Collision detected!
+Type: Queen
+Location : (-9.86248,-4.27644)
+Collided with
+Type: Bishop
+Location : (-9.65749,-3.12128)
+Collision detected!
+Type: Queen
+Location : (1.37172,5.63225)
+Collided with
+Type: Bishop
+Location : (0.946898,6.71136)
+GAME OVER!
+Remaining pieces:
+Type: Rook
+Location : (7.98383,0.776421)
+Remaining pieces:
+Type: Bishop
+Location : (-4.0943,-8.74258)
+Remaining pieces:
+Type: Queen
+Location : (-0.418714,4.88339)
+Remaining pieces:
+Type: Queen
+Location : (-3.29969,-4.62566)
+Remaining pieces:
+Type: Queen
+Location : (-9.86804,7.61211)
+Remaining pieces:
+Type: Queen
+Location : (6.63521,8.44322)
+Remaining pieces:
+Type: Queen
+Location : (0.923032,-20.923)
+Final scores:
+Rook captures: 0
+Bishop captures: 1
+Queen captures: 7
+
+C:\Users\Adam Barron\source\repos\CSC3221Project2\Debug\CSC3221Project2.exe (process 13500) exited with code 0.
+Press any key to close this window . . .
+
+*** Run 5 ***
+
+GAME STARTED!
+Collision detected!
+Type: Bishop
+Location : (-4.42073,-4.57927)
+Collided with
+Type: Rook
+Location : (-6,-7.27378)
+Collision detected!
+Type: Bishop
+Location : (-4.99188,9.00812)
+Collided with
+Type: Rook
+Location : (-6,9.56175)
+Collision detected!
+Type: Queen
+Location : (-5.24995,4.79678)
+Collided with
+Type: Rook
+Location : (-4.38093,4.94858)
+Collision detected!
+Type: Bishop
+Location : (-3.88165,-3.96084)
+Collided with
+Type: Rook
+Location : (-3.75588,-6.82934)
+Collision detected!
+Type: Queen
+Location : (-4.78884,0.0529496)
+Collided with
+Type: Queen
+Location : (-5.61507,0.962127)
+Collision detected!
+Type: Bishop
+Location : (-5.95343,-6.06803)
+Collided with
+Type: Bishop
+Location : (-6.40281,-4.7463)
+Collision detected!
+Type: Queen
+Location : (1.49632,6.77261)
+Collided with
+Type: Bishop
+Location : (2.69845,7.65636)
+Collision detected!
+Type: Queen
+Location : (-0.0536515,6.2787)
+Collided with
+Type: Bishop
+Location : (-0.937498,6.89026)
+Collision detected!
+Type: Queen
+Location : (4.38643,7.04798)
+Collided with
+Type: Bishop
+Location : (4.52342,5.73687)
+Collision detected!
+Type: Queen
+Location : (-1.36564,-6.74673)
+Collided with
+Type: Bishop
+Location : (-2.23505,-7.50154)
+GAME OVER!
+Remaining pieces:
+Type: Rook
+Location : (9.94427,0.840297)
+Remaining pieces:
+Type: Queen
+Location : (7.81643,-27.8164)
+Remaining pieces:
+Type: Queen
+Location : (0.355174,-9.03937)
+Remaining pieces:
+Type: Queen
+Location : (-9.07178,8.69127)
+Remaining pieces:
+Type: Queen
+Location : (5.34651,9.14624)
+Final scores:
+Rook captures: 0
+Bishop captures: 4
+Queen captures: 6
+
+C:\Users\Adam Barron\source\repos\CSC3221Project2\Debug\CSC3221Project2.exe (process 21032) exited with code 0.
+Press any key to close this window . . .
